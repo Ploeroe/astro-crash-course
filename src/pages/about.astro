@@ -1,0 +1,24 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Card from '../components/Card.astro';
+import H1 from '../components/H1.astro';
+import Main from '../components/Main.astro';
+---
+
+<Layout title="About | Rhythm Nation">
+	<Main>
+        <H1 text="About Us"/>
+        <Card
+            title="Our Mission"
+            body="We are a community of music producers and enthusiasts who are passionate about creating and sharing music. Our mission is to provide a platform for music lovers to connect, collaborate, and learn from one another."
+        />
+        <Card
+            title="Our Vision"
+            body="Our vision is to build a vibrant and inclusive community where music producers of all levels can come together to share their knowledge, skills, and experiences. We believe that music has the power to bring people together and inspire creativity, and we are committed to fostering a supportive and welcoming environment for all members."
+        />
+        <Card
+            title="Our Values"
+            body="At Rhythm Nation, we are guided by a set of core values that shape everything we do. These values include creativity, collaboration, inclusivity, and respect. We believe that by upholding these values, we can create a positive and empowering community that benefits all members."
+        />
+	</Main>
+</Layout>
